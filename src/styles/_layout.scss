@@ -1,12 +1,23 @@
 .App {
     .header {
-        height: 20%;
+        height: 16%;
         width: 100vw;
-        background-color: grey;
+        // width: 16%;
+        // height: 100vh;
+        background-color:orange;
         position: fixed;
     }
 
     .content {
-        
+        background-color: grey;
+        height: 84%;
+        // position: absolute;
+        margin-top: 16%;
+        width: 100vw;
+        position: fixed;
+        // width: 84%;
+        // height: 100vh;
+        // margin-left: 16%;
+
     }
 }
