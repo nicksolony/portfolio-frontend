@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import React from 'react';
+
 
 //need to get logo from Anya to add it here
 
