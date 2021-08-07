@@ -7,10 +7,11 @@ import Resume from './contents/Resume';
 import Contact from './contents/Contact';
 
 
-//need to get logo from Anya to add it here
-
 import './App.css';
 // import './App.scss';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -20,8 +21,6 @@ function App() {
       <Projects />
       <Resume />
       <Contact/>
-
-
     </div>
   );
 }

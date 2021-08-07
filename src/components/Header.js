@@ -5,7 +5,7 @@ import Logo from './Logo'
 class Header extends Component {
     render() {
         return ( 
-        <div>
+        <div id="Header">
             <Logo />
             <Navbar />
         </div>

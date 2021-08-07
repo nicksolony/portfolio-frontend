@@ -6,8 +6,8 @@ class NavBar extends Component {
         return ( 
             <div id='Navbar'>
             <ul>
-                <li><NavItem /></li>
-                <li>About Me</li>
+                <li><NavItem item="Home" tolink="/"/></li>
+                <li><NavItem item="About Me" tolink="/about"/></li>
                 <li>Skills</li>
                 <li>Projects</li>
                 <li>Resume</li>
