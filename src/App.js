@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{Component} from 'react';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Header from './components/Header';
 import About from './contents/About';
 import Skills from './contents/Skills';
@@ -12,17 +13,28 @@ import './App.css';
 
 
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Contact/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Router>
+          
+            <Header />
+            <div className="content">
+            <br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <About />
+            <Skills />
+            <Projects />
+            <br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <Resume />
+            <Contact/>
+            </div>
+        </Router>
+      </div>
+    );
+}
 }
 
 export default App;

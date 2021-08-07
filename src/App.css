@@ -36,10 +36,14 @@ body {
   min-height: 100vh;
 }
 
-/* #Header {
-  
-  
+/* .content {
+  margin-top: 20%;
 } */
+
+ #Header {
+  position: fixed;
+  
+ }
 
 #Logo {
   background-image: url('./imgs/Logo.png');
