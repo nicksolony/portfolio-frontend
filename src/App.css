@@ -1,4 +1,6 @@
 
+/*  
+ KEEP THIS TO TRY TO MAKE WHEEL ROTATE
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,4 +16,17 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#Logo {
+  background-image: url('./imgs/Logo.png');
+  background-size: 10%;
+  background-repeat: no-repeat;
+  height: 10vh;
+  
+}
+
+#Navbar {
+  float: left;
+  display: inline-flex;
 }
