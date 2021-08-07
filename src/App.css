@@ -95,7 +95,7 @@ body {
 
 
 .NavItem .active {
-  background-color: #04AA6D;
+  background-color: darkgrey;
   color: white;
 }
 

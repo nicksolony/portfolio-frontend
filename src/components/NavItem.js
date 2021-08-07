@@ -15,8 +15,7 @@ class NavItem extends Component {
                 
                     <NavHashLink smooth to={this.props.tolink} 
                         activeClassName="active" 
-                        activeStyle={{ color: 'red' }}
-                        scroll={el => scrollWithOffset(el)} activeClassName="selected"
+                        scroll={el => scrollWithOffset(el)}
                     >
                 {this.props.item}
                 </NavHashLink>
