@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class NavBar extends Component {
     render() {
         return ( 
-            <div>
+            <div id='Navbar'>
             <ul>
                 <li>Home</li>
                 <li>About Me</li>

@@ -1,15 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
 
 
 //need to get logo from Anya to add it here
 
-// import './App.css';
-import './App.scss';
+import './App.css';
+// import './App.scss';
 function App() {
   return (
     <div className="App">
-      <div className="header"></div>
-      <div className="content">asASDASDSfsd</div>
+      <Header></Header>
     </div>
   );
 }
