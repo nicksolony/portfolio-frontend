@@ -31,3 +31,15 @@
 
 #Navbar {
 }
+
+#Resume td {
+  vertical-align: top;
+}
+
+.ColumnLeft {
+  width: 60%;
+}
+
+.ColumnRight {
+  width: 40%;
+}
