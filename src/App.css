@@ -60,28 +60,45 @@ body {
 }
 
 #Navbar {
-  text-align: left;
+  /* text-align: left;
   margin-left: 50px;
   display: flex;
   /* flex-flow: row wrap; */
-  list-style-type: none;
+  /* list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100%; */
   overflow: hidden;
 
   /* background-image: url("./images/Header.png"); */
 }
 
-.NavItem {
-  margin: 0 5vh;
+.NavItem, #Navbar a {
+  /* margin: 0 5vh;
   display: block;
   text-align: center;
   text-decoration: none;
   padding: 1vh 1vh;
-  /* flex-flow: row wrap; */
-  align-items: center;
+  flex-flow: row wrap; 
+  align-items: center;*/
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.NavItem :hover, #Navbar a:hover {
+  background-color: grey;
+}
+
+
+.NavItem .active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 
 #Resume td {
   vertical-align: top;
