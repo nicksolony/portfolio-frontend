@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+import About from './contents/About';
+import Skills from './contents/Skills';
+import Projects from './contents/Projects';
+import Resume from './contents/Resume';
+import Contact from './contents/Contact';
 
 
 //need to get logo from Anya to add it here
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <Resume />
+      <Contact/>
 
 
     </div>

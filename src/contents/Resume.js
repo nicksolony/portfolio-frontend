@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import ResumeTop from './ResumeTop'
-import ResumeSkills from './ResumeSkills'
-import ResumeProjects from './ResumeProjects'
-import ResumeExperience from './ResumeExperience'
-import ResumeEducation from './ResumeEducation'
-import ResumeCommunity from './ResumeCommunity'
+import ResumeTop from '../components/ResumeTop'
+import ResumeSkills from '../components/ResumeSkills'
+import ResumeProjects from '../components/ResumeProjects'
+import ResumeExperience from '../components/ResumeExperience'
+import ResumeEducation from '../components/ResumeEducation'
+import ResumeCommunity from '../components/ResumeCommunity'
 
 
 class Resume extends Component {
