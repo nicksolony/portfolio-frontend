@@ -6,7 +6,7 @@ import Address from '../components/Address'
 class Resume extends Component {
     render() {
         return ( 
-            <div>
+            <div id="Contact">
                 <h2>CONTACT</h2>
                 <table>
                     <tr>
