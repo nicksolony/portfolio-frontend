@@ -4,15 +4,19 @@ import NavItem from './NavItem'
 class NavBar extends Component {
     render() {
         return ( 
-            <div >
-            <ul id='Navbar'>
-                <li><NavItem item="Home" tolink="/#"/></li>
-                <li><NavItem item="About Me" tolink="/#About"/></li>
-                <li><NavItem item="Skills" tolink="/#Skills"/></li>
-                <li><NavItem item="Projects" tolink="/#Projects"/></li>
-                <li><NavItem item="Resume" tolink="/#Resume"/></li>
-                <li><NavItem item="Contact Me" tolink="/#Contact"/></li>
-            </ul>
+            <div id='Navbar'>
+            
+                <NavItem item="Home" tolink="/#"/>
+                <NavItem item="About Me" tolink="/#About"/>
+                <NavItem item="Skills" tolink="/#Skills"/>
+                <NavItem item="Projects" tolink="/#Projects"/>
+                <NavItem item="Resume" tolink="/#Resume"/>
+                <NavItem item="Contact Me" tolink="/#Contact"/>
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+            
         </div>
         )
     }
