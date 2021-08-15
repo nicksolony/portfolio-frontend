@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
+
 
 const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
@@ -11,13 +12,13 @@ class NavItem extends Component {
     render(){
         return (
             <div className="NavItem">
-                {/* <Link to={this.props.tolink}>
+                
+                    <NavHashLink smooth to={this.props.tolink} 
+                        activeClassName="active" 
+                        scroll={el => scrollWithOffset(el)}
+                    >
                 {this.props.item}
-                </Link> */}
-
-                <HashLink smooth to={this.props.tolink} scroll={el => scrollWithOffset(el)}>
-                {this.props.item}
-                </HashLink>
+                </NavHashLink>
             </div>
         )
     }
