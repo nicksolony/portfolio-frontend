@@ -15,6 +15,7 @@ class NavBar extends Component {
                 <a href="javascript:void(0);" class="icon" onclick="openMenu()">
                     <i class="fa fa-bars"></i>
                 </a>
+            
 
             
         </div>
