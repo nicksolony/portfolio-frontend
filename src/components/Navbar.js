@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import NavItem from './NavItem'
 
+//https://www.w3schools.com/howto/howto_js_topnav_responsive.asp review this to get reponsive top nav
+
 class NavBar extends Component {
     render() {
         return ( 
@@ -12,9 +14,9 @@ class NavBar extends Component {
                 <NavItem item="Projects" tolink="/#Projects"/>
                 <NavItem item="Resume" tolink="/#Resume"/>
                 <NavItem item="Contact Me" tolink="/#Contact"/>
-                <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                {/* <a href="javascript:void(0);" class="icon" onclick="openMenu()">
                     <i class="fa fa-bars"></i>
-                </a>
+                </a> */}
             
 
             
