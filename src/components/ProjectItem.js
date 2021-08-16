@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 
 class ProjectItem extends Component {
+
     render(){
+        
         return (
+            
+
             <div>
                 <h2>{this.props.item.name}</h2>
                 
@@ -10,9 +14,9 @@ class ProjectItem extends Component {
                 <p>{this.props.item.desc}</p>
                 
                 <a href={this.props.item.live}><img src="../imgs/web.svg" alt="Live version" width="30px"/></a>
-                <a href={this.props.item.git}><img src="../imgs/git.png" alt="Live version" width="30px"/></a>
-                <a href={this.props.item.youtube}><img src="../imgs/youtube.png" alt="Live version" width="30px"/></a>
-                <a href={this.props.item.blog}><img src="../imgs/blog.png" alt="Live version" width="30px"/></a>
+                <a href={this.props.item.git}><img src="../imgs/git.png" alt="GitHub" width="30px"/></a>
+                <a href={this.props.item.youtube}><img src="../imgs/youtube.png" alt="Demo Recording" width="30px"/></a>
+                <a href={this.props.item.blog}><img src="../imgs/blog.png" alt="Blog Post" width="30px"/></a>
               
 
 
@@ -21,5 +25,7 @@ class ProjectItem extends Component {
         )
     }
 }
+
+
 
 export default ProjectItem;
