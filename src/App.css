@@ -146,3 +146,19 @@ table {
     text-align: left;
   }
 } */
+
+#Skills ul {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#Skills ul li{
+  display: inline;
+  /* margin-left: 20px; */
+  /* list-style-image: url('/src/imgs/skills_bullets.png'); */
+}
+
+#Skills ul li:not(:last-child):after {
+  content: url('/src/imgs/skills_bullets.png');
+  vertical-align: bottom;
+}
