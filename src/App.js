@@ -16,7 +16,8 @@ class App extends Component {
 
   state = {
     about: "Agile learner with proven multi-tasking capabilities, masterful organizational skills, and great detail orientation. Fluent in three languages, and holds an international MBA degree. Flexible web developer with experience in operations and project management and a background in remote team collaboration.",
-    skills:['Ruby', 'Rails', 'SQL', 'Javascript', 'React', 'Redux', 'Sinatra', 'HTML', 'CSS', 'PHP', 'MySQL', 'RESTful API', 'MS Office', 'Google Suite', 'JIRA']
+    skills:['Ruby', 'Rails', 'SQL', 'Javascript', 'React', 'Redux', 'Sinatra', 'HTML', 'CSS', 'PHP', 'MySQL', 'RESTful API', 'MS Office', 'Google Suite', 'JIRA'],
+    projects:[{name:"fixer-tube",git:"https://github.com/nicksolony/fixer-tube",img:"../src/imgs/fixer-tube.jpg",desc:"Database of how-to-fix-things YouTube videos.",live:"https://fixer-tube.herokuapp.com/",youtube:"https://youtu.be/6AuazvySc9U"}]
   }
 
 
@@ -32,7 +33,7 @@ class App extends Component {
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <Skills skills = {this.state.skills}/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <Projects />
+            <Projects projects ={this.state.projects}/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <Resume />
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

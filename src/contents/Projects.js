@@ -6,12 +6,13 @@ class Projects extends Component {
         return ( 
             <div id='Projects'>
                 <h2>PROJECTS</h2>
-            <ul>
-                <li><ProjectItem /></li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-                <li>Project 4</li>
-            </ul>
+                <table className="sectionContent">
+                <tr>
+                    
+                    {this.props.projects.map((project)=><ProjectItem item={project} />)}
+                </tr>
+            </table>
+            <img src="../imgs/fixer-tube.jpg" alt="" height="100%" width="100%"/>
         </div>
         )
     }

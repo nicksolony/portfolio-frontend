@@ -146,9 +146,15 @@ table {
     text-align: left;
   }
 } */
+#About, #Skills, #Projects {
+  padding-top: 1.3%;
+}
 
+#About p{
+  text-align: center;
+}
 #Skills ul {
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -161,4 +167,13 @@ table {
 #Skills ul li:not(:last-child):after {
   content: url('/src/imgs/skills_bullets.png');
   vertical-align: bottom;
+}
+
+#Projects .sectionContent{
+  background-image: url('/src/imgs/projects-bg.png');
+  color: white;
+}
+
+#Projects .sectionContent img{
+  width: 100%;
 }
