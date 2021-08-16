@@ -38,9 +38,15 @@ body {
   min-height: 100vh;
 }
 
-/* .content {
-  margin-top: 20%;
-} */
+
+
+.content {
+  
+  height: 84%;
+  /* margin-top: 16%; */
+  width: 100vw;
+  /* position: fixed; */
+}
 
  #Header {
   position: fixed;
