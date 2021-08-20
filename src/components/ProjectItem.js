@@ -14,7 +14,7 @@ class ProjectItem extends Component {
                 <h2>{this.props.item.name}</h2>
                 
                 {/* <iframe width="300" height="300" src={this.props.item.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe> */}
-                <img src={this.props.item.img} alt="" width="250" />
+                <img src={this.props.item.img} alt="" width="450" />
                 <p>{this.props.item.desc}</p>
                 {this.props.item.links.map((link)=> 
                 <ProjectLink link = {link}  />)}
