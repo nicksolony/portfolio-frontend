@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ProjectLink = (props) => {
-
+const ProjectLink = (ic) => {
+    
     let icon={};
-
-    switch (this.props.type) {
+    
+    switch (ic.link.type) {
         case 'live':
             icon.url = "../imgs/web.svg";
             icon.alt = "Live version";
@@ -25,7 +25,7 @@ const ProjectLink = (props) => {
     }
 
     return (
-        <a href={this.props.url}><img src={icon.url} alt={icon.alt} width="30px"/></a>
+        <a href={ic.link.url}><img src={icon.url} alt={icon.alt} width="30px"/></a>
     )
 
 }

@@ -23,7 +23,7 @@ class App extends Component {
         links:[
             {type:'live',url:"https://fixer-tube.herokuapp.com/"},
             {type:'git',url:"https://github.com/nicksolony/fixer-tube"},
-            {type:'youtube',url:"https://www.youtube.com/6AuazvySc9U"},
+            {type:'youtube',url:"https://youtu.be/6AuazvySc9U"},
             {type:'blog',url:"https://nicksolonyy.medium.com/front-end-form-validation-in-react-33595dec8d6f?sk=b6a12799b8a6076aa51715f92f6088e9"}
           ],
         img:"./imgs/fixer-tube.jpg",
@@ -34,7 +34,7 @@ class App extends Component {
         name:"Menu Creator",
         links:[
           {type:'git',url:"https://github.com/nicksolony/menu-creator"},
-          {type:'youtube',url:"https://www.youtube.com/G5gYx6zxjlY"},
+          {type:'youtube',url:"https://youtu.be/G5gYx6zxjlY"},
           {type:'blog',url:"https://nicksolonyy.medium.com/using-clonenode-to-save-your-time-and-sanity-b9b6f6cc9463?sk=f8687f7def4ab980ce8ee1233ee61734"}
         ],
         img:"./imgs/menu-creator.jpg",
