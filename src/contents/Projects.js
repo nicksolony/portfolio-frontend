@@ -4,7 +4,7 @@ import ProjectItem from '../components/ProjectItem'
 class Projects extends Component {
     render() {
         return ( 
-            <div id='Projects'>
+            <div id='Projects' className="component">
                 <h2>PROJECTS</h2>
                 <div className="sectionContent">
                 <table>

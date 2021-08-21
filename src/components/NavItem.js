@@ -4,7 +4,7 @@ import { NavHashLink } from 'react-router-hash-link';
 
 const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -180; 
+    const yOffset = -5; 
     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 

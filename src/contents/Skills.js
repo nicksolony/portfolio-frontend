@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Skills extends Component {
     render() {
         return ( 
-        <div id="Skills">
+        <div id="Skills" className="component">
             <h2>TECHNICAL SKILLS</h2>
             <ul>
                 {this.props.skills.map(skill => {

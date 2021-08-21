@@ -75,8 +75,6 @@ body {
   padding: 0;
   width: 100%; */
   overflow: hidden;
-
-  /* background-image: url("./images/Header.png"); */
 }
 
 .NavItem, #Navbar a {
@@ -146,9 +144,6 @@ body {
     text-align: left;
   }
 } */
-#About, #Skills, #Projects {
-  padding-top: 1.3%;
-}
 
 #About p{
   text-align: center;
@@ -193,4 +188,9 @@ text-align: center;
 
 .socIcon {
   width: 3vw;
+}
+
+.component { 
+  height: 50vh;
+  padding-top: 25vh;
 }

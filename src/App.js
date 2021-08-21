@@ -64,16 +64,16 @@ class App extends Component {
           
             <Header />
             <div className="content">
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              
             <About content={this.state.about} />
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <Skills skills = {this.state.skills}/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <Projects projects ={this.state.projects}/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            
+            <Skills skills = {this.state.skills} />
+            
+            <Projects projects ={this.state.projects} />
+            
             <Resume />
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <Contact/>
+            
+            <Contact />
             </div>
         </Router>
       </div>

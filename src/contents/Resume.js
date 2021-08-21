@@ -10,7 +10,7 @@ import ResumeCommunity from '../components/ResumeCommunity'
 class Resume extends Component {
     render() {
         return ( 
-            <div id='Resume'>
+            <div id='Resume' className="component">
                 <h2>RESUME</h2>
                 <table>
                     <tr>
