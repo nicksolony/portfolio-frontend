@@ -81,7 +81,7 @@ class App extends Component {
             
             <Projects projects ={this.state.projects} />
             
-            <Resume resume = {this.state.resume} about={this.state.about}/>
+            <Resume state = {this.state} />
             
             <Contact />
             </div>
