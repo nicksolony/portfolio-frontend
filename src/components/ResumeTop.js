@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ResumeTop = () => {
+const ResumeTop = (data) => {
 
     return (
         <div>
-            Nick Solonyy <br />
-            address
+            {data.resume.name} <br />
+            {data.resume.address} | {data.resume.phone} | <a href=`mailto:${data.resume.email}`>{data.resume.email}</a>
         </div>
     )
 

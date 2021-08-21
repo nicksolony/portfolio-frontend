@@ -52,7 +52,14 @@ class App extends Component {
         desc:"Online database of films that includes cast and production crew.",
         youtube:"https://www.youtube.com/embed/hE8MKbCivN8"
       }
-    ]
+    ],
+    resume:{
+      name:"Nick Solonyy",
+      address:"Corona, NY 11368",
+      phone:"347-691-2935",
+      email:"nicksolony@gmail.com"
+    }
+    
   }
 
   
@@ -71,7 +78,7 @@ class App extends Component {
             
             <Projects projects ={this.state.projects} />
             
-            <Resume />
+            <Resume resume = {this.state.resume}/>
             
             <Contact />
             </div>

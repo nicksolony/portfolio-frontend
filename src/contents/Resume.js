@@ -6,7 +6,6 @@ import ResumeExperience from '../components/ResumeExperience'
 import ResumeEducation from '../components/ResumeEducation'
 import ResumeCommunity from '../components/ResumeCommunity'
 
-
 class Resume extends Component {
     render() {
         return ( 
@@ -15,7 +14,7 @@ class Resume extends Component {
                 <table>
                     <tr>
                         <td className="ColumnLeft">
-                            <ResumeTop/>
+                            <ResumeTop resume = {this.props.resume}/>
                             <ResumeSkills/>
                             <ResumeProjects/>
                         </td>
