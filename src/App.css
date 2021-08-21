@@ -75,6 +75,8 @@ body {
   padding: 0;
   width: 100%; */
   overflow: hidden;
+  background-color: black;
+  width: 100vw;
 }
 
 .NavItem, #Navbar a {
@@ -91,6 +93,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: white;
 }
 
 .NavItem :hover, #Navbar a:hover {
@@ -167,6 +170,7 @@ body {
 #Projects .sectionContent{
   background-image: url('/src/imgs/projects-bg.png');
   color: white;
+  width: 100vw;
 }
 
 #Projects .sectionContent a{
@@ -191,6 +195,11 @@ text-align: center;
 }
 
 .component { 
-  height: 50vh;
+  /* height: 50vh; */
   padding-top: 25vh;
+  width: 80vw;  
+}
+
+.component p {
+  align-items: center;
 }
