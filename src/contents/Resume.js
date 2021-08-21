@@ -14,8 +14,10 @@ class Resume extends Component {
                 <table>
                     <tr>
                         <td className="ColumnLeft">
-                            <ResumeTop resume = {this.props.resume}/>
+                            <ResumeTop resume = {this.props.resume} about = {this.props.about}/>
+                            <br/>
                             <ResumeSkills/>
+                            <br/>
                             <ResumeProjects/>
                         </td>
                         <td className="ColumnRight">

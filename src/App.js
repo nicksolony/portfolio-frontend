@@ -57,7 +57,10 @@ class App extends Component {
       name:"Nick Solonyy",
       address:"Corona, NY 11368",
       phone:"347-691-2935",
-      email:"nicksolony@gmail.com"
+      email:"nicksolony@gmail.com",
+      git: "https://github.com/nicksolony",
+      linkedin: "https://www.linkedin.com/in/nick-solonyy/",
+      blog: "http://medium.com/@nicksolonyy"
     }
     
   }
@@ -78,7 +81,7 @@ class App extends Component {
             
             <Projects projects ={this.state.projects} />
             
-            <Resume resume = {this.state.resume}/>
+            <Resume resume = {this.state.resume} about={this.state.about}/>
             
             <Contact />
             </div>
