@@ -25,7 +25,7 @@ const ProjectLink = (ic) => {
     }
 
     return (
-        <a href={ic.link.url} target="_blank" rel="noreferrer" ><img src={icon.url} alt={icon.alt} width="30px"/></a>
+        <a href={ic.link.url} target="_blank" rel="noreferrer" ><img className="socIcon" src={icon.url} alt={icon.alt}/></a>
     )
 
 }
