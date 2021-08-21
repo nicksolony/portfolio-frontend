@@ -12,15 +12,15 @@ const ResumeProjects = (data) => {
                 let blogLink= project.links.find(({type})=>type==='blog').url;            
                 
                 return <div>
-                    <p> <a href={liveLink}>{project.name}</a> - <a href={gitLink}>Github</a> | <a href={demoLink}>Demo</a> | <a href={blogLink}>Blog</a></p>
-                    <p>{project.desc}</p>
+                    <p> <a href={liveLink}>{project.name}</a> - <a href={gitLink}>Github</a> | <a href={demoLink}>Demo</a> | <a href={blogLink}>Blog</a><br/>
+                    {project.desc}
                     
                     <ul>
                         {project.bullets.map(bullet=>{
                             return <li>{bullet}</li>
                         })}
                     </ul>
-                    <br/>
+                    </p>
                 </div>
                     
             })}

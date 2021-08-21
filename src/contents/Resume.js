@@ -15,9 +15,9 @@ class Resume extends Component {
                     <tr>
                         <td className="ColumnLeft">
                             <ResumeTop resume = {this.props.state.resume} about = {this.props.state.about}/>
-                            <br/>
+                            
                             <ResumeSkills skills= {this.props.state.skills}/>
-                            <br/>
+                            
                             <ResumeProjects projects = {this.props.state.projects}/>
                         </td>
                         <td className="ColumnRight">
