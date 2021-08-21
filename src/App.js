@@ -19,7 +19,7 @@ class App extends Component {
     skills:['Ruby', 'Rails', 'SQL', 'Javascript', 'React', 'Redux', 'Sinatra', 'HTML', 'CSS', 'PHP', 'MySQL', 'RESTful API', 'MS Office', 'Google Suite', 'JIRA'],
     projects:[
       {
-        name:"fixer-tube",
+        name:"Fixer-tube",
         links:[
             {type:'live',url:"https://fixer-tube.herokuapp.com/"},
             {type:'git',url:"https://github.com/nicksolony/fixer-tube"},
