@@ -42,15 +42,15 @@ class App extends Component {
         youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"
       },
       {
-        name:"Menu Creator",
+        name:"Movie_DB",
         links:[
-          {type:'git',url:"https://github.com/nicksolony/menu-creator"},
-          {type:'youtube',url:"https://youtu.be/G5gYx6zxjlY"},
-          {type:'blog',url:"https://nicksolonyy.medium.com/using-clonenode-to-save-your-time-and-sanity-b9b6f6cc9463?sk=f8687f7def4ab980ce8ee1233ee61734"}
+          {type:'git',url:"https://github.com/nicksolony/movie_db"},
+          {type:'youtube',url:"https://youtu.be/hE8MKbCivN8"},
+          {type:'blog',url:"https://nicksolonyy.medium.com/code-hit-the-error-find-a-workaround-and-watch-your-time-c04814befad9?sk=e0ec931cd1ac1bbe19c401f679030a5a"}
         ],
-        img:"./imgs/menu-creator.jpg",
-        desc:"SPA to empower restaurant owners to manage and print daily menus.",
-        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"
+        img:"./imgs/movie-db.jpg",
+        desc:"Online database of films that includes cast and production crew.",
+        youtube:"https://www.youtube.com/embed/hE8MKbCivN8"
       }
     ]
   }
