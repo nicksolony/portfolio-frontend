@@ -39,7 +39,20 @@ class App extends Component {
         ],
         img:"./imgs/menu-creator.jpg",
         desc:"SPA to empower restaurant owners to manage and print daily menus.",
-        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"}]
+        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"
+      },
+      {
+        name:"Menu Creator",
+        links:[
+          {type:'git',url:"https://github.com/nicksolony/menu-creator"},
+          {type:'youtube',url:"https://youtu.be/G5gYx6zxjlY"},
+          {type:'blog',url:"https://nicksolonyy.medium.com/using-clonenode-to-save-your-time-and-sanity-b9b6f6cc9463?sk=f8687f7def4ab980ce8ee1233ee61734"}
+        ],
+        img:"./imgs/menu-creator.jpg",
+        desc:"SPA to empower restaurant owners to manage and print daily menus.",
+        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"
+      }
+    ]
   }
 
   
