@@ -6,10 +6,20 @@ const ResumeProjects = (data) => {
         <div>
             <h3>Technical Projects</h3>
             {data.projects.map(project => {
-                let gitLink= project.links.find(({type})=>type==='git').url;            
-
+                let gitLink= project.links.find(({type})=>type==='git').url;
+                let liveLink= project.links.find(({type})=>type==='live') ? project.links.find(({type})=>type==='live').url : null;
+                let demoLink= project.links.find(({type})=>type==='youtube').url;
+                let blogLink= project.links.find(({type})=>type==='blog').url;            
+                
                 return <div>
-                    <p>{project.name} - <a href={gitLink}>Github</a></p>
+                    <p> <a href={liveLink}>{project.name}</a> - <a href={gitLink}>Github</a> | <a href={demoLink}>Demo</a> | <a href={blogLink}>Blog</a></p>
+                    <p>{project.desc}</p>
+                    
+                    <ul>
+                        {project.bullets.map(bullet=>{
+                            return <li>{bullet}</li>
+                        })}
+                    </ul>
                     <br/>
                 </div>
                     

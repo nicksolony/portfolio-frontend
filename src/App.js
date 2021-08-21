@@ -28,7 +28,8 @@ class App extends Component {
           ],
         img:"./imgs/fixer-tube.jpg",
         desc:"Database of how-to-fix-things YouTube videos.",
-        youtube:"https://www.youtube.com/embed/6AuazvySc9U"
+        youtube:"https://www.youtube.com/embed/6AuazvySc9U",
+        bullets:['Designed Rails backend API to enable the client-side app to fetch and store data.','Created a custom set_slug method in Rails Models to ensure that each record in the database has a slug.','Applied front-end form validation using the local state to speed up error handling during form submission.','Utilized nested routing and slugs in URL using react-router-dom to show app structure and the page contents']
       },
       {
         name:"Menu Creator",
@@ -39,7 +40,8 @@ class App extends Component {
         ],
         img:"./imgs/menu-creator.jpg",
         desc:"SPA to empower restaurant owners to manage and print daily menus.",
-        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY"
+        youtube:"https://www.youtube.com/embed/G5gYx6zxjlY",
+        bullets:['Built a Single Page Application using HTML, CSS, and JavaScript to communicate with a backend API.','Leveraged Node.cloneNode() method to DRY code and re-use elements in JavaScript.','Enhanced visual layout of the application by applying CSS styling.']
       },
       {
         name:"Movie_DB",
@@ -50,7 +52,8 @@ class App extends Component {
         ],
         img:"./imgs/movie-db.jpg",
         desc:"Online database of films that includes cast and production crew.",
-        youtube:"https://www.youtube.com/embed/hE8MKbCivN8"
+        youtube:"https://www.youtube.com/embed/hE8MKbCivN8",
+        bullets:['Coded Ruby on Rails application to manage data using forms.', 'Assigned validations to the main attributes to ensure database integrity.','Established standard and 3rd party(Facebook) user authentication to protect the database entries.']
       }
     ],
     resume:{
