@@ -23,7 +23,7 @@ class Resume extends Component {
                         <td width="10vw"></td>
                         <td className="ColumnRight">
                             <ResumeExperience jobs={this.props.state.resume.jobs}/>
-                            <ResumeEducation/>
+                            <ResumeEducation education={this.props.state.resume.education}/>
                             <ResumeCommunity/>
                         </td>
                     </tr>

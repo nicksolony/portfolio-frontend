@@ -120,6 +120,7 @@ body {
 
 .ColumnRight {
   width: 40vw;
+  text-align: left;
 }
 
 #Resume table {
