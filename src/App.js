@@ -89,6 +89,19 @@ class App extends Component {
           to:"02/2016",
           bullets:[`Managed and successfully completed over 100 projects on Google Knowledge Graph.`,'Developed project guidelines and tracking charts minimizing errors and expediting project completion.','Supervised a team of 60 employees and monitored their activities and performance.']
         }
+      ],
+      education:[{
+        institution:"Flatiron School Software Engineering Bootcamp",
+        field:"Intensive Part-Time Software Engineering",
+        location:"Online",
+        dates:"11/2019 - 12/2020"
+      },
+      {
+        institution:"Kyiv National Economic University",
+        field:"Master of Business Administration (Organizational Management)",
+        location:"Kyiv, Ukraine",
+        dates:"06/2014"
+      }
       ]
     }
     
