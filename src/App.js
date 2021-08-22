@@ -66,28 +66,28 @@ class App extends Component {
       blog: "http://medium.com/@nicksolonyy",
       jobs:[
         {
+          company:"Hilson Management Corporation",
+          location: "New York, NY",
+          position: "Executive Administrative Assistant",
+          from:"10/2020",
+          to:"Present",
+          bullets:['Review and optimize processes of a Real Estate management company to facilitate accurate and quick task turnaround.','Created a follow-up system that improved the rental arrears collection rate by 20%.']
+        },
+        {
+          company:"NYIM Training/ NYC Career Centers",
+          location: "New York, NY",
+          position: "Office Manager",
+          from:"02/2016",
+          to:"10/2020",
+          bullets:['Directed and ran day-to-day operations of a software training company.','Optimized training scheduling system to complete the booking within one call.']
+        },
+        {
           company:"Metaweb Technologies (Google) via Upwork",
           location: "Remote",
           position: "Team Co-Lead",
           from:"01/2012",
           to:"02/2016",
-          bullets:[`Managed and successfully completed over 100 projects on ${<a href="https://en.wikipedia.org/wiki/Google_Knowledge_Graph">Google Knowledge Graph.</a>}`,'Created a follow-up system that improved the rental arrears collection rate by 20%.']
-        },
-        {
-          company:"Hilson Management Corporation",
-          location: "New York, NY",
-          position: "Executive Administrative Assistant",
-          from:"10/2020",
-          to:"Present",
-          bullets:['Review and optimize processes of a Real Estate management company to facilitate accurate and quick task turnaround.','Created a follow-up system that improved the rental arrears collection rate by 20%.']
-        },
-        {
-          company:"Hilson Management Corporation",
-          location: "New York, NY",
-          position: "Executive Administrative Assistant",
-          from:"10/2020",
-          to:"Present",
-          bullets:['Review and optimize processes of a Real Estate management company to facilitate accurate and quick task turnaround.','Created a follow-up system that improved the rental arrears collection rate by 20%.']
+          bullets:[`Managed and successfully completed over 100 projects on Google Knowledge Graph.`,'Developed project guidelines and tracking charts minimizing errors and expediting project completion.','Supervised a team of 60 employees and monitored their activities and performance.']
         }
       ]
     }

@@ -30,7 +30,7 @@
 
 body {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 1.25vw;
+  font-size: 1vw;
 }
 
 .App {
@@ -76,8 +76,9 @@ body {
   padding: 0;
   width: 100%; */
   overflow: hidden;
-  background-color: black;
+  background-color:white;
   width: 100vw;
+  padding-left: 52vw;
 }
 
 .NavItem, #Navbar a {
@@ -93,8 +94,9 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.7vw;
-  color: white;
+  font-size: 1.2vw;
+  color: black;
+  
 }
 
 .NavItem :hover, #Navbar a:hover {

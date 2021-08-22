@@ -5,7 +5,7 @@ const ResumeExperience = (data) => {
         <div>
             <h3>Experience</h3>
             <table>
-                {data.jobs.reverse().map(job=>{
+                {data.jobs.map(job=>{
                     return <row>
                     <tr>
                         <td className="ColumnLeft">
