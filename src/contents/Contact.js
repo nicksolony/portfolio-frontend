@@ -7,7 +7,7 @@ class Resume extends Component {
     render() {
         return ( 
             <div id="Contact" className="component">
-                <h2>CONTACT</h2>
+                <h2>Contact</h2>
                 <table>
                     <tr>
                         <td className="ColumnLeft">

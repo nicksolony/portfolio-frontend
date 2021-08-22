@@ -6,15 +6,29 @@ const ResumeExperience = (data) => {
             <h3>Experience</h3>
             <table>
                 {data.jobs.reverse().map(job=>{
-                    return <tr>
+                    return <row>
+                    <tr>
                         <td className="ColumnLeft">
                             {job.company}<br/>
                             {job.position}
+
                         </td>
                         <td className="ColumnRight">{job.location}<br/>
                         {job.from} - {job.to}
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="2"> 
+                        <ul>
+                            {job.bullets.map(bullet=>{
+                                return <li>
+                                    {bullet}
+                                </li>
+                            })}
+                        </ul>
+                        </td>
+                    </tr>
+                    </row>
                 })}
             </table>
         </div>
