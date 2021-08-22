@@ -63,7 +63,17 @@ class App extends Component {
       email:"nicksolony@gmail.com",
       git: "https://github.com/nicksolony",
       linkedin: "https://www.linkedin.com/in/nick-solonyy/",
-      blog: "http://medium.com/@nicksolonyy"
+      blog: "http://medium.com/@nicksolonyy",
+      jobs:[
+        {
+          company:"Hilson Management Corporation",
+          location: "New York, NY",
+          position: "Executive Administrative Assistant",
+          from:"10/2020",
+          to:"Present",
+          bullets:['Review and optimize processes of a Real Estate management company to facilitate accurate and quick task turnaround.','Created a follow-up system that improved the rental arrears collection rate by 20%.']
+        }
+      ]
     }
     
   }

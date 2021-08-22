@@ -21,7 +21,7 @@ class Resume extends Component {
                             <ResumeProjects projects = {this.props.state.projects}/>
                         </td>
                         <td className="ColumnRight">
-                            <ResumeExperience/>
+                            <ResumeExperience jobs={this.props.state.resume.jobs}/>
                             <ResumeEducation/>
                             <ResumeCommunity/>
                         </td>

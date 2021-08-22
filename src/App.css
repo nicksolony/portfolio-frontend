@@ -30,6 +30,7 @@
 
 body {
   font-family: 'Gothic A1', sans-serif;
+  font-size: 1.25vw;
 }
 
 .App {
@@ -40,13 +41,13 @@ body {
 
 
 
-.content {
+/* .content {
   
-  height: 84%;
+  /* height: 84%; */
   /* margin-top: 16%; */
-  width: 100vw;
+  /* width: 100vw; */
   /* position: fixed; */
-}
+/* } */ 
 
  #Header {
   position: fixed;
@@ -92,7 +93,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.7vw;
   color: white;
 }
 
@@ -112,15 +113,15 @@ body {
 }
 
 .ColumnLeft {
-  width: 60%;
+  width: 60vw;
 }
 
 .ColumnRight {
-  width: 40%;
+  width: 40vw;
 }
 
 #Resume table {
-  width:80%;
+  width:100%;
 }
 
 
@@ -171,6 +172,7 @@ body {
   background-image: url('/src/imgs/projects-bg.png');
   color: white;
   width: 100vw;
+  margin-left:-2.5vw;
 }
 
 #Projects .sectionContent a{
@@ -197,7 +199,9 @@ text-align: center;
 .component { 
   /* height: 50vh; */
   padding-top: 25vh;
-  width: 80vw;  
+  padding-left: 2.5vw;
+  width: 95vw;  
+  align-items: center;
 }
 
 .component p {
