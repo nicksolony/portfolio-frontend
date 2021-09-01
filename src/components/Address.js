@@ -4,10 +4,10 @@ const Address = (data) => {
     
     return ( 
         <div>
-            Nick Solonyy <br/>
-            Corona, NY 11368 <br/>
-            347-691-2935 <br/>
-            nicksolony@gmail.com
+            {data.info.name}<br/>
+            {data.info.address}<br/>
+            {data.info.phone}<br/>
+            <a href={`mailto:${data.info.email}`}>{data.info.email}</a>
         </div>
     )
 }
