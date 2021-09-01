@@ -1,17 +1,16 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class Social extends Component {
-    render() {
-        return ( 
+const Social = (data) => {
+    
+    return ( 
         <div>
             <ul>
-                <li>Github</li>
-                <li>Blog</li>
-                <li>LinkedIn</li>
+                <li><a href={data.info.git}>Github</a></li>
+                <li><a href={data.info.linkedin}>LinkedIn</a></li>
+                <li><a href={data.info.blog}>Blog</a></li>
             </ul>
         </div>
-        )
-    }
+    )
 }
 
 export default Social;
