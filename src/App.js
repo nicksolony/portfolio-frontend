@@ -102,7 +102,10 @@ class App extends Component {
         location:"Kyiv, Ukraine",
         dates:"06/2014"
       }
-      ]
+      ],
+      community:['Sponsor
+      @Mykolaivka Orphanage, Ukraine','Humanitarian Volunteer Translator
+      @ Tarjimly']
     }
     
   }
