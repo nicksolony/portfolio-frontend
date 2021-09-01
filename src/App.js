@@ -103,9 +103,7 @@ class App extends Component {
         dates:"06/2014"
       }
       ],
-      community:['Sponsor
-      @Mykolaivka Orphanage, Ukraine','Humanitarian Volunteer Translator
-      @ Tarjimly']
+      community:['Sponsor @ Mykolaivka Orphanage, Ukraine','Humanitarian Volunteer Translator @ Tarjimly']
     }
     
   }

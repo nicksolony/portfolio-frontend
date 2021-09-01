@@ -1,13 +1,14 @@
 import React from 'react';
 
-const ResumeCommunity = () => {
+const ResumeCommunity = (data) => {
 
     return (
         <div>
             <h3>COMMUNITY ENGAGEMENT</h3>
             <ul>
-                <li>Line 1</li>
-                <li>Line 2</li>
+                {data.community.map(entity=>{
+                    return <li> {entity} </li>
+                })}
             </ul>
         </div>
     )
