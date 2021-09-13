@@ -76,12 +76,12 @@ body {
   padding: 0;
   width: 100%; */
   overflow: hidden;
-  background-color:white;
+  background-color:black;
   width: 100vw;
   padding-left: 52vw;
 }
 
-.NavItem, #Navbar a {
+.NavItem a {
   /* margin: 0 5vh;
   display: block;
   text-align: center;
@@ -95,7 +95,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1.2vw;
-  color: black;
+  color:rgba(245, 245, 245, 0.856);
   
 }
 
@@ -105,8 +105,9 @@ body {
 
 
 .NavItem .active {
-  background-color: darkgrey;
-  color: white;
+  text-decoration: underline;
+  text-decoration-color:orange;
+  text-decoration-thickness: .25vw;
 }
 
 
