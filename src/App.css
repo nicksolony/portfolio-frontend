@@ -76,7 +76,7 @@ body {
   padding: 0;
   width: 100%; */
   overflow: hidden;
-  background-color:black;
+  background-color:#1a1a1a;
   width: 100vw;
 }
 
@@ -153,12 +153,11 @@ body {
 } */
 #About {
   background-image: url("./imgs/BG3.gif");
-  background-color: Black;
-  background-size: auto 100vh;
+  background-color:#1a1a1a;
+  background-size: 100vw;
   background-repeat: no-repeat;
   color: white;
-  width: 100vw;
-
+  width: 100%;
 }
 
 #About .photo {
