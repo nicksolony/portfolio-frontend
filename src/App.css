@@ -153,7 +153,8 @@ body {
 } */
 #About {
   background-image: url("./imgs/BG3.gif");
-  background-size: auto 80vh;
+  background-color: Black;
+  background-size: auto 100vh;
   background-repeat: no-repeat;
   color: white;
   width: 100vw;
@@ -166,8 +167,9 @@ body {
 }
 
 #About p{
-  text-align: center;
+  text-align: justify;
 }
+
 #Skills ul {
   padding-top: 10px;
   text-align: center;
