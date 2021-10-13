@@ -199,10 +199,24 @@ body {
   /* margin-left: 20px; */
   /* list-style-image: url('/src/imgs/skills_bullets.png'); */
 }
+#Skills ul {
+  margin-right: 20%;
+  align-items: left;
+}
 
 #Skills ul li:not(:last-child):after {
   content: url('/src/imgs/skills_bullets.png');
   vertical-align: bottom;
+  margin-left: .8vw;
+  margin-right: .8vw;
+}
+
+hr {
+  height:5vh;
+  /* color: #DEBD30; */
+  background-color:#DEBD30;
+  border: 0px;
+  margin-top: 0%;
 }
 
 #Projects .sectionContent{
@@ -235,7 +249,7 @@ text-align: center;
 
 .component { 
   /* height: 50vh; */
-  padding-top: 25vh;
+  padding-top: 5vh;
   padding-left: 2.5vw;
   width: 95vw;  
   align-items: center;
@@ -248,6 +262,7 @@ text-align: center;
 
 .row {
   display: flex;
+  width: 100%;
 }
 
 .left {

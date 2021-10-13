@@ -9,6 +9,7 @@ class Skills extends Component {
                 <h2>Technical <br/> Skills</h2>
             </div>
             <div className="right">
+                <hr/>
                 <ul>
                     {this.props.skills.map(skill => {
                         return <li>{skill}</li>
