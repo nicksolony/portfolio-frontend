@@ -152,11 +152,15 @@ body {
   }
 } */
 #About {
-  background-image: url("./imgs/BG3.gif");
+  /* background-image: url("./imgs/BG3.gif"); */
   background-color:#1a1a1a;
   background-size: 100vw;
   background-repeat: no-repeat;
   color: white;
+  width: 100%;
+}
+
+#About img {
   width: 100%;
 }
 
@@ -249,4 +253,8 @@ text-align: center;
 .left {
   width: 35%;
   margin-left:5%;
+}
+
+.right {
+  width:65%
 }
