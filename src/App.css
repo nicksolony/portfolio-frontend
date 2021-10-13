@@ -174,12 +174,20 @@ body {
   text-align: center;
 }
 
-#Skills h2 {
-  float: left;
+#Skills img, #Skills h2 {
+  /* float: left;
   background-image: url(/src/imgs/gear_skills.png);
   background-size: 20vh;
   background-repeat: no-repeat;
+  height: 20vh; */
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3em;
+}
+
+#Skills img {
   height: 20vh;
+  width: 20vh;
 }
 #Skills ul li{
   display: inline;
