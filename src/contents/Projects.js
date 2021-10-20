@@ -10,7 +10,7 @@ class Projects extends Component {
                 <table>
                 <tr>
                     
-                    {this.props.projects.map((project)=><td><ProjectItem item={project}  /></td>)}
+                    {this.props.projects.map((project)=><td className="projectCell"><ProjectItem item={project}  /></td>)}
                 </tr>
             </table>
             </div>
