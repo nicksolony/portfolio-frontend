@@ -239,7 +239,8 @@ hr {
 }
 
 #Projects .sectionContent{
-  background-image: url('/src/imgs/projects-bg.png');
+  /* background-image: url('/src/imgs/projects-bg.png'); */
+  background-color: black;
   color: white;
   width: 100vw;
   margin-left:-2.5vw;
