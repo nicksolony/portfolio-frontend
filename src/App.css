@@ -240,7 +240,7 @@ hr {
 
 #Projects .sectionContent{
   /* background-image: url('/src/imgs/projects-bg.png'); */
-  background-color: black;
+  background: linear-gradient(to bottom, white 50%,black 50%);
   color: white;
   width: 100vw;
   margin-left:-2.5vw;
