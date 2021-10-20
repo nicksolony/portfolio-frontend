@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return ( 
             <div id='Projects' className="component">
-                <h2>Projects</h2>
+                <h1>PR<span id="o">O</span>JECTS</h1>
                 <div className="sectionContent">
                 <table>
                 <tr>
