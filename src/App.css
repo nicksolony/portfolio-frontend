@@ -240,7 +240,8 @@ hr {
 
 #Projects .sectionContent{
   /* background-image: url('/src/imgs/projects-bg.png'); */
-  background: linear-gradient(to bottom, white 50%,black 50%);
+  /* background: linear-gradient(to bottom, white 0% 40%,black 60% 100%); */
+  background: linear-gradient(white 30%, black 30%);
   color: white;
   width: 100vw;
   margin-left:-2.5vw;
@@ -260,6 +261,14 @@ text-align: center;
 }
 
 .projectItem {
+  horizontal-align: left;
+}
+
+.projectItem h2 {
+  color:#DEBD30
+}
+
+.projectImage {
   width: 25vw;
 }
 
