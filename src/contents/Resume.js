@@ -10,7 +10,7 @@ class Resume extends Component {
     render() {
         return ( 
             <div id='Resume' className="component">
-                <a href={this.props.state.resume.pdf} target="_blank" rel="noopener noreferrer" id="resumeDownload">Download PDF</a>
+                <a href={this.props.state.resume.pdf} target="_blank" rel="noopener noreferrer" id="resumeDownload"><strong>Download PDF</strong></a>
                 
                 <h1>Resume</h1>
                 
