@@ -10,8 +10,10 @@ class Resume extends Component {
     render() {
         return ( 
             <div id='Resume' className="component">
-                <h1>Resume</h1>
                 <a href={this.props.state.resume.pdf} target="_blank" rel="noopener noreferrer" id="resumeDownload">Download PDF</a>
+                
+                <h1>Resume</h1>
+                
                 <table>
                     <tr>
                         <td className="ColumnLeft">

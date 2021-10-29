@@ -133,8 +133,17 @@ body {
   font-weight:900;
 }
 
-#Resume a {
+
+
+
+.resumeTop a {
   color: grey;
+}
+
+#resumeDownload  {
+  color: #DEBD30;
+  float: right;
+  margin-right: 30vw;
 }
 
 
