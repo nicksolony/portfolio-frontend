@@ -5,7 +5,7 @@ class Skills extends Component {
         return ( 
         <div id="About" className="component row">
             <div className="left">
-            <h2><img src="./imgs/photo.png" alt="Profile" className="photo" />About me</h2>
+            <h1><img src="./imgs/photo.png" alt="Profile" className="photo" />About me</h1>
             <p>{this.props.content}</p>
             </div>
             <div className="right">

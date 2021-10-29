@@ -6,7 +6,7 @@ class Skills extends Component {
         <div id="Skills" className="component row">
             <div className="left">
                 <img src="./imgs/gear_skills.png" alt="" />
-                <h2>Technical <br/> Skills</h2>
+                <h1>Technical <br/> Skills</h1>
             </div>
             <div className="right">
                 <hr/>

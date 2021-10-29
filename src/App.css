@@ -127,6 +127,16 @@ body {
   width:100%;
 }
 
+#Resume h1 {
+  color: #DEBD30;
+  font-size: 3em;
+  font-weight:900;
+}
+
+#Resume a {
+  color: grey;
+}
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* @media screen and (max-width: 600px) {
@@ -179,7 +189,7 @@ body {
   text-align: center;
 }
 
-#Skills img, #Skills h2 {
+#Skills img, #Skills h1 {
   /* 
   background-image: url(/src/imgs/gear_skills.png);
   background-size: 20vh;

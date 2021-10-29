@@ -10,7 +10,7 @@ class Resume extends Component {
     render() {
         return ( 
             <div id='Resume' className="component">
-                <h2>Resume</h2>
+                <h1>Resume</h1>
                 <table>
                     <tr>
                         <td className="ColumnLeft">
