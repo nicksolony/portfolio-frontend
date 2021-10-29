@@ -11,6 +11,7 @@ class Resume extends Component {
         return ( 
             <div id='Resume' className="component">
                 <h1>Resume</h1>
+                <a>Download PDF</a>
                 <table>
                     <tr>
                         <td className="ColumnLeft">
