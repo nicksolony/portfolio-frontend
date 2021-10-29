@@ -4,16 +4,16 @@ const ResumeExperience = (data) => {
     return (
         <div>
             <h3>Experience</h3>
-            <table>
+            <table className="innerTable">
                 {data.jobs.map(job=>{
                     return <row>
                     <tr>
-                        <td className="ColumnLeft">
+                        <td className="leftInnerColumn">
                             {job.company}<br/>
                             {job.position}
 
                         </td>
-                        <td className="ColumnRight">{job.location}<br/>
+                        <td className="rightInnerColumn">{job.location}<br/>
                         {job.from} - {job.to}
                         </td>
                     </tr>

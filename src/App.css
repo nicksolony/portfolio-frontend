@@ -120,13 +120,16 @@ body {
 
 .ColumnRight {
   width: 40vw;
-  text-align: left;
+  /* text-align: left; */
+
 }
 
-#Resume table {
+#ResumeTable {
   width:100%;
 }
-
+#Resume table {
+  width:95%;
+}
 #Resume h1 {
   color: #DEBD30;
   font-size: 3em;
@@ -136,6 +139,25 @@ body {
 #Resume h3 {
   background-color:#DEBD30;
   color: white;
+}
+
+#Resume .ColumnRight {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+#Resume .innerTable {
+  width:95%,
+  align="center"
+}
+
+.leftInnerColumn {
+  width:60%;
+  margin-left: 5vw;
+};
+
+.rightInnerColumn {
+  width:40%
 }
 
 

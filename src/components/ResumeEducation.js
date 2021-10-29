@@ -5,15 +5,15 @@ const ResumeEducation = (data) => {
     return (
         <div>
             <h3>Education</h3>
-            <table>
+            <table className="innerTable"> 
                 {data.education.map(school=>{
                     return <row>
                     <tr>
-                        <td className="ColumnLeft">{school.institution}<br/>
+                        <td className="leftInnerColumn">{school.institution}<br/>
                         {school.field} <br/>
                         </td>
                         
-                        <td className="ColumnRight">{school.location}<br/>
+                        <td className="rightInnerColumn">{school.location}<br/>
                         {school.dates} <br/>
                         </td>
                     </tr>

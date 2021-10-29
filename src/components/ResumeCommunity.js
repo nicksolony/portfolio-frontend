@@ -4,7 +4,7 @@ const ResumeCommunity = (data) => {
 
     return (
         <div>
-            <h3>COMMUNITY ENGAGEMENT</h3>
+            <h3>Community Engagement</h3>
             <ul>
                 {data.community.map(entity=>{
                     return <li> {entity} </li>
