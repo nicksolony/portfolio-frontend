@@ -154,8 +154,7 @@ body {
 }
 
 #Resume .innerTable {
-  width:95%,
-  align="center"
+  width:95%
 }
 
 .leftInnerColumn {
@@ -176,8 +175,6 @@ body {
 
 #resumeDownload  {
   color: #DEBD30;
-  float: right;
-  margin-right: 21vw;
 }
 
 
