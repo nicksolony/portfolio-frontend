@@ -110,6 +110,47 @@ body {
 }
 
 
+
+
+
+.projectImage {
+  width: 25vw;
+  
+}
+
+.socIcon {
+  width: 3vw;
+}
+
+.component { 
+  /* height: 50vh; */
+  padding-top: 5vh;
+  padding-left: 2.5vw;
+  width: 95vw;  
+  align-items: center;
+}
+
+.component p {
+  align-items: center;
+}
+
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 35%;
+  margin-left:5%;
+}
+
+.right {
+  width:65%
+}
+
+
+
 #Resume td {
   vertical-align: top;
 }
@@ -332,41 +373,3 @@ text-align: center;
   text-align: center;
   margin-left: 0;
 } */
-
-
-
-.projectImage {
-  width: 25vw;
-  
-}
-
-.socIcon {
-  width: 3vw;
-}
-
-.component { 
-  /* height: 50vh; */
-  padding-top: 5vh;
-  padding-left: 2.5vw;
-  width: 95vw;  
-  align-items: center;
-}
-
-.component p {
-  align-items: center;
-}
-
-
-.row {
-  display: flex;
-  width: 100%;
-}
-
-.left {
-  width: 35%;
-  margin-left:5%;
-}
-
-.right {
-  width:65%
-}
