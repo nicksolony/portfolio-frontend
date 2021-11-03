@@ -13,12 +13,15 @@ const ResumeExperience = (data) => {
                             {job.position}
 
                         </td>
+                        <td className="centerInnerColumn">
+
+                        </td>
                         <td className="rightInnerColumn">{job.location}<br/>
                         {job.from} - {job.to}
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2"> 
+                        <td colspan="3"> 
                         <ul>
                             {job.bullets.map(bullet=>{
                                 return <li>

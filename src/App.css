@@ -156,11 +156,11 @@ body {
 }
 
 .ColumnLeft {
-  width: 60vw;
+  width: 55vw;
 }
 
 .ColumnRight {
-  width: 40vw;
+  width: 45vw;
   /* text-align: left; */
 
 }
@@ -195,16 +195,23 @@ body {
 }
 
 #Resume .innerTable {
-  width:95%
+  width:95%;
+  border: 1px solid;
+  margin-left:2.5%;
 }
 
-.leftInnerColumn {
+#Resume .leftInnerColumn {
   width:60%;
-  margin-left: 5vw;
+  padding-left: 1vw;
 };
 
-.rightInnerColumn {
-  width:40%
+#Resume .rightInnerColumn {
+  width:30%;
+  margin-left:0px;
+}
+
+#Resume .centerInnerColumn {
+  width:10%;
 }
 
 

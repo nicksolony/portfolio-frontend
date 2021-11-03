@@ -12,7 +12,9 @@ const ResumeEducation = (data) => {
                         <td className="leftInnerColumn">{school.institution}<br/>
                         {school.field} <br/>
                         </td>
-                        
+                        <td className="centerInnerColumn">
+
+                        </td>
                         <td className="rightInnerColumn">{school.location}<br/>
                         {school.dates} <br/>
                         </td>
