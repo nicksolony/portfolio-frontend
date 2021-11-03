@@ -213,7 +213,7 @@ body {
 }
 
 #Resume .centerInnerColumn {
-  width:5%;
+  width:10%;
   /* border: 1px solid; */
 }
 
@@ -227,6 +227,8 @@ body {
 #resumeDownload  {
   color: #DEBD30;
 }
+
+
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -280,7 +282,7 @@ body {
   text-align: center;
 }
 
-#Skills img, #Skills h1 {
+#Skills img, #Skills h1, #Contact h1 {
   /* 
   background-image: url(/src/imgs/gear_skills.png);
   background-size: 20vh;

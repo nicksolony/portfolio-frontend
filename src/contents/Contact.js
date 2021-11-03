@@ -8,7 +8,7 @@ class Resume extends Component {
         
         return ( 
             <div id="Contact" className="component">
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <table>
                     <tr>
                         <td className="ColumnLeft">
