@@ -196,22 +196,25 @@ body {
 
 #Resume .innerTable {
   width:95%;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin-left:2.5%;
 }
 
 #Resume .leftInnerColumn {
   width:60%;
   padding-left: 1vw;
+  /* border: 1px solid; */
 };
 
 #Resume .rightInnerColumn {
   width:30%;
   margin-left:0px;
+  /* border: 1px solid; */
 }
 
 #Resume .centerInnerColumn {
-  width:10%;
+  width:5%;
+  /* border: 1px solid; */
 }
 
 
