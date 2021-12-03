@@ -249,10 +249,13 @@ body {
 #Skills ul {
   margin-right: 20%;
   align-items: left;
+  
 }
 
 #Skills ul li:not(:last-child):after {
-  content: url('/src/imgs/skills_bullets.png');
+  /* content: url('/src/imgs/skills_bullets.png'); */
+  content:"•";
+  color: #DEBD30;
   vertical-align: bottom;
   margin-left: .8vw;
   margin-right: .8vw;
