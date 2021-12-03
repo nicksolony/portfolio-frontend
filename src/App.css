@@ -110,16 +110,57 @@ body {
 }
 
 
+
+
+
+.projectImage {
+  width: 25vw;
+  
+}
+
+.socIcon {
+  width: 3vw;
+}
+
+.component { 
+  /* height: 50vh; */
+  padding-top: 5vh;
+  padding-left: 2.5vw;
+  width: 95vw;  
+  align-items: center;
+}
+
+.component p {
+  align-items: center;
+}
+
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 35%;
+  margin-left:5%;
+}
+
+.right {
+  width:65%
+}
+
+
+
 #Resume td {
   vertical-align: top;
 }
 
 .ColumnLeft {
-  width: 60vw;
+  width: 55vw;
 }
 
 .ColumnRight {
-  width: 40vw;
+  width: 45vw;
   /* text-align: left; */
 
 }
@@ -142,23 +183,38 @@ body {
   padding-left: 1%;
 }
 
+#Resume .ColumnRight h3 {
+  background-color: #1a1a1a;
+  color:#DEBD30;
+  padding-left: 1%;
+}
+
 #Resume .ColumnRight {
   background-color: #1a1a1a;
   color: white;
 }
 
 #Resume .innerTable {
-  width:95%,
-  align="center"
+  width:95%;
+  /* border: 1px solid; */
+  margin-left:2.5%;
 }
 
-.leftInnerColumn {
+#Resume .leftInnerColumn {
   width:60%;
-  margin-left: 5vw;
+  padding-left: 1vw;
+  /* border: 1px solid; */
 };
 
-.rightInnerColumn {
-  width:40%
+#Resume .rightInnerColumn {
+  width:30%;
+  margin-left:0px;
+  /* border: 1px solid; */
+}
+
+#Resume .centerInnerColumn {
+  width:10%;
+  /* border: 1px solid; */
 }
 
 
@@ -170,9 +226,9 @@ body {
 
 #resumeDownload  {
   color: #DEBD30;
-  float: right;
-  margin-right: 21vw;
 }
+
+
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -226,7 +282,7 @@ body {
   text-align: center;
 }
 
-#Skills img, #Skills h1 {
+#Skills img, #Skills h1, #Contact h1 {
   /* 
   background-image: url(/src/imgs/gear_skills.png);
   background-size: 20vh;
@@ -332,41 +388,3 @@ text-align: center;
   text-align: center;
   margin-left: 0;
 } */
-
-
-
-.projectImage {
-  width: 25vw;
-  
-}
-
-.socIcon {
-  width: 3vw;
-}
-
-.component { 
-  /* height: 50vh; */
-  padding-top: 5vh;
-  padding-left: 2.5vw;
-  width: 95vw;  
-  align-items: center;
-}
-
-.component p {
-  align-items: center;
-}
-
-
-.row {
-  display: flex;
-  width: 100%;
-}
-
-.left {
-  width: 35%;
-  margin-left:5%;
-}
-
-.right {
-  width:65%
-}

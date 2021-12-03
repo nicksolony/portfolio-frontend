@@ -4,10 +4,10 @@ const Address = (data) => {
     
     return ( 
         <div>
-            {data.info.name}<br/>
-            {data.info.address}<br/>
-            {data.info.phone}<br/>
-            <a href={`mailto:${data.info.email}`}>{data.info.email}</a>
+            <p>{data.info.name}</p>
+            <p>{data.info.address}</p>
+            <p>{data.info.phone}</p>
+            <p><a href={`mailto:${data.info.email}`}>{data.info.email}</a></p>
         </div>
     )
 }

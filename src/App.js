@@ -127,7 +127,7 @@ class App extends Component {
             <Projects projects ={this.state.projects} />
             
             <Resume state = {this.state} />
-            
+            <hr/>
             <Contact info = {this.state.resume}/>
             </div>
         </Router>
